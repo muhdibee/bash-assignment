@@ -1,0 +1,80 @@
+total 24K
+-rw-r--r-- 1 muhammad muhammad  597 Mar 29 17:01 backup.sh
+-rw-r--r-- 1 muhammad muhammad  845 Mar 29 16:48 file_manager.sh
+-rw-r--r-- 1 muhammad muhammad  384 Mar 29 17:10 process_monitor.sh
+-rw-r--r-- 1 muhammad muhammad  622 Mar 29 17:18 run_all.sh
+-rw-r--r-- 1 muhammad muhammad  882 Mar 29 16:27 system_check.sh
+-rw-r--r-- 1 muhammad muhammad 1.1K Mar 29 15:28 user_info.sh
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.8G     0  3.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+drivers         238G  108G  131G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            3.8G  104K  3.8G   1% /mnt/wslg
+none            3.8G     0  3.8G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.8G  548K  3.8G   1% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G   76K  3.8G   1% /mnt/wslg/versions.txt
+none            3.8G   76K  3.8G   1% /mnt/wslg/doc
+C:\             238G  108G  131G  46% /mnt/c
+tmpfs           761M   20K  761M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7608         531        6652           3         585        7076
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 17:19:22 up  7:55,  1 user,  load average: 0.00, 0.03, 0.09
+----- Total running processes: 40
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        5524  0.0  1.0 2136704 85112 ?       Ssl  11:37   0:08 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        5362  0.3  0.5 2162884 46324 ?       Ssl  11:37   1:19 /usr/bin/containerd
+root         207  0.0  0.2 107024 22400 ?        Ssl  09:23   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          42  1.5  0.1  66832 15136 ?        S<s  09:23   7:20 /usr/lib/systemd/systemd-journald
+muhammad   14441  0.1  0.1  22756 13568 pts/0    Tl   16:32   0:03 vim file_manger.sh
+Backup created: ../backups/backup_20260329_171922.tar.gz
+Old backups cleaned up
+nginx is Stopped. Restarting...
+nginx Restarted
+ssh is Stopped. Restarting...
+ssh Restarted
+docker is Stopped. Restarting...
+docker Restarted
+Hello Muhammad from 9ja! You are an Adult.
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.8G     0  3.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+drivers         238G  108G  131G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            3.8G  104K  3.8G   1% /mnt/wslg
+none            3.8G     0  3.8G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.8G  544K  3.8G   1% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G   76K  3.8G   1% /mnt/wslg/versions.txt
+none            3.8G   76K  3.8G   1% /mnt/wslg/doc
+C:\             238G  108G  131G  46% /mnt/c
+tmpfs           761M   20K  761M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7608         529        6646           3         593        7079
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 17:24:33 up  8:01,  1 user,  load average: 0.01, 0.02, 0.07
+----- Total running processes: 38
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        5524  0.0  1.0 2136704 85112 ?       Ssl  11:37   0:08 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        5362  0.3  0.5 2162884 46324 ?       Ssl  11:37   1:20 /usr/bin/containerd
+root         207  0.0  0.2 107024 22400 ?        Ssl  09:23   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          42  1.5  0.1  66832 15280 ?        S<s  09:23   7:28 /usr/lib/systemd/systemd-journald
+muhammad   14441  0.1  0.1  22756 13568 pts/0    Tl   16:32   0:03 vim file_manger.sh
+Backup created: ../backups/backup_20260329_172439.tar.gz
+Old backups cleaned up

@@ -1,0 +1,10 @@
+Error: Directory does not exist
+Usage: backup.sh <Source directory>
+Error: Directory does not exist
+Usage: backup.sh <Source directory>
+Backup created: ../backups/backup_20260329_170155.tar.gz
+Old backups cleaned up
+Backup created: ../backups/backup_20260329_171922.tar.gz
+Old backups cleaned up
+Backup created: ../backups/backup_20260329_172439.tar.gz
+Old backups cleaned up
