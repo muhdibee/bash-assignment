@@ -21,7 +21,7 @@ menu() {
 
  while true; do
      menu
-     read -p "Choose option: " choice
+     read -p "Choose your option: " choice
 
      case $choice in
        1) run_all | tee -a "$LOG_FILE" ;;
